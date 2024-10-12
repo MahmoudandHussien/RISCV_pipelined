@@ -1,1 +1,4 @@
 # RISCV_pipelined
+This repository contains the Verilog implementation of a pipelined RISC-V processor. The project aims to provide a customizable and extensible processor design based on the RISC-V instruction set architecture. In this project, I implemented the famous 32-bit RISC-V Processor. It's a pipelined microarchitecture RISC-V processor based on Harvard Architecture, which means it has two separate memories for instruction and data. The pipelined processor breaks the execution of instructions into multiple stages—such as instruction fetch, instruction decode, execute, memory access, write back—allowing multiple instructions to be processed simultaneously, improving overall throughput.
+# architecture
+![image](https://github.com/user-attachments/assets/152260ae-cb64-45f4-a26f-3454f8b13118)
